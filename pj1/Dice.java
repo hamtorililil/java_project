@@ -20,10 +20,19 @@ public class Dice {
 
     public static void main(String[] args) {
         Dice dite1, dite2;
-        int rollcounter;
+        int rollcount;
 
         dite1 = new Dice();
         dite2 = new Dice();
+
+        do{
+            dice1.roll();
+            dice2.roll();
+            System.out.println
+
+        }
+
+
     }
 
 }
