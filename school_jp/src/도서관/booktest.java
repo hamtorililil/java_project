@@ -42,7 +42,7 @@ class book{
     
 
 
-public class bookTest {
+public class booktest {
     public static void main(String[] args){
         ArrayList<book> list= new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
@@ -56,22 +56,6 @@ public class bookTest {
         int scar = scanner.nextInt();
         scanner.nextLine();
         
-        switch (scar){
-            case 1:
-                String title = scanner.nextLine();
-                int score = scanner.nextInt();
-                list.add(new book(title, score));
-            case 2:
-                String title2 = scanner.nextLine();
-                for(book e ; list){
-                    if(e.getTitle().equals(title2)){
-                        System.out.println(e);
-                    }
-                }
-            case 3:
-                
-            case 4:    
-                
-        }
+
     }
 }
