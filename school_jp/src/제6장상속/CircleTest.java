@@ -1,8 +1,9 @@
 package 제6장상속;
 
 
-class Shape{//부모
+abstract class Shape{//부모
     int x, y;
+
 }
         class Circle extends Shape {//자식
         int radius;
